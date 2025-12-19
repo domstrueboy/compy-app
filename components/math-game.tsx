@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   equation: {
-    color: '#FFFFFF',
+    color: 'white',
     fontSize: 48,
     fontWeight: '300',
     marginBottom: 8,
@@ -168,15 +168,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   streakWrapper: {
+    color: 'white',
     marginTop: 24,
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: '100%',
     maxWidth: 400,
     paddingHorizontal: 10,
+    marginBottom: 24,
   },
   streak: {
-    color: '#FFFFFF',
     flexDirection: 'row',
     alignItems: 'flex-end',
   },
@@ -186,10 +187,12 @@ const styles = StyleSheet.create({
   streakNumber: {
     fontSize: 32,
     fontWeight: '500',
+    color: 'white',
   },
   streakTitle: {
     fontSize: 14,
     marginBottom: 4,
+    color: 'white',
   },
 });
 

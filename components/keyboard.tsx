@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { GameButton } from './game-button';
 
 export enum EButtonType {
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
   },
   buttonWrapper: {
-    width: '30%',
+    width: '33.33%',
     aspectRatio: 1,
     padding: 5,
   },
